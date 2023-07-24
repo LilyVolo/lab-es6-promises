@@ -130,7 +130,7 @@ async function makeBroccoli() {
 makeBroccoli()
 // Bonus 2 - Promise all
 // ...
-let a = [ obtainInstruction('brusselsSprouts', 0), obtainInstruction('brusselsSprouts', 1), obtainInstruction('brusselsSprouts', 2) ]
+//let a = [ obtainInstruction('brusselsSprouts', 0), obtainInstruction('brusselsSprouts', 1), obtainInstruction('brusselsSprouts', 2) ]
  let b = []
  for (let i = 1; i < 8; i++) {
 b.push(obtainInstruction('brusselsSprouts', i))
