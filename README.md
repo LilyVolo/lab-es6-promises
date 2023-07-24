@@ -123,7 +123,7 @@ Continue working in the `javascript/index.js`. You should not alter the `obtainI
 
 ```javascript
 // Iteration 2 - using promises
-obtainInstruction('steak', 0)
+obtainInstruction('steak', 0, (step0))
   .then( (step0) => {
     document.querySelector("#steak").innerHTML += `<li>${step0}</li>`
     //  ... Your code here
