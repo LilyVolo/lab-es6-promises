@@ -72,10 +72,6 @@ obtainInstruction('steak', 0)
  })
    
  
-   
-  
-
-
 
 // Iteration 3 using async/await
 // ...
@@ -128,13 +124,12 @@ makeBroccoli()
 // Bonus 2 - Promise all
 // ...
 //let a = [ obtainInstruction('brusselsSprouts', 0), obtainInstruction('brusselsSprouts', 1), obtainInstruction('brusselsSprouts', 2) ]
- let b = []
+ 
+let b = []
+
  for (let i = 1; i < 8; i++) {
 b.push(obtainInstruction('brusselsSprouts', i))
 }
-
-
-
 
 Promise.all(b).then((data) => {
   console.log(data)
